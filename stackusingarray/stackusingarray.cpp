@@ -78,6 +78,17 @@ public:
 			case '3':
 				s.display();
 				break;
+
+			case '4':
+			{
+				exit(0);
+			}
+			break;
+
+			default:
+			{
+				cout << "\ninvalid choice" << endl;
+			}
 			}
 		}
 			
