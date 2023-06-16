@@ -50,7 +50,7 @@ public:
 	}
 	int main() 
 	{
-		stack_array s;
+		stackarray s;
 		char ch;
 		while (true) {
 			cout << endl;
@@ -65,7 +65,7 @@ public:
 				s.push();
 				break;
 			}
-			}
+			
 		}
 			
 			  
