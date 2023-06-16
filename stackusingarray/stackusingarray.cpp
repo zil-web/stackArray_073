@@ -25,5 +25,17 @@ public:
 
 		return element;
 	}
-	
+	void pop() {
+		if (empty()) {
+			cout << "\nstack in empty. cannot pop." << endl; //1.a
+			return; //1.b
+		}
+		cout << "\nthe pop element is :" << stack_array[top] << endl; //step 2
+		top--; //1.b
+	}
+
+	//method for check if data is empty
+	bool empty() {
+		return(top == -1);
+	}
 };
