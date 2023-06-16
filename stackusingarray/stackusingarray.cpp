@@ -65,7 +65,12 @@ public:
 				s.push();
 				break;
 			}
-			
+			case '2':
+				if (s.empty()) {
+					cout << "\nstack is empty." << endl;
+					break;
+				}
+				
 		}
 			
 			  
