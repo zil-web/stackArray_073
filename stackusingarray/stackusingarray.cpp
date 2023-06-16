@@ -70,7 +70,12 @@ public:
 					cout << "\nstack is empty." << endl;
 					break;
 				}
-				
+				s.pop();
+				break;
+			case '3':
+				s.display();
+				break;
+			}
 		}
 			
 			  
