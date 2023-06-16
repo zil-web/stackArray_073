@@ -14,6 +14,9 @@ public:
 
 	}
 	void push() {
+		int element;
+		cout << "enter an element :";
+			cin >> element;
 		if (top == 4) {
 			cout << "number of data execd the limit" << endl;
 			return ;
