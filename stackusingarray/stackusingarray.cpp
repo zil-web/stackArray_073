@@ -13,17 +13,16 @@ public:
 		top = -1;
 
 	}
-	int push(int element) {
+	void push() {
 		if (top == 4) {
 			cout << "number of data execd the limit" << endl;
-			return 0;
+			return ;
 		}
 		top++; // step2
 		stack_array[top] = element; //step3
 		cout << endl;
 		cout << element << "ditambahkan(pushed)" << endl;
 
-		return element;
 	}
 	void pop() {
 		if (empty()) {
@@ -44,8 +43,33 @@ public:
 		}
 		else {
 			for (int tmp = top; tmp >= 0; tmp--) {
-				cout << stack_array[tmp] <<  endl;
+				cout << stack_array[tmp] << endl;
 			}
 		}
+
 	}
+	int main() 
+	{
+		stack_array s;
+		char ch;
+		while (true) {
+			cout << endl;
+			cout << "\n***stack menu***\n" << endl;
+			cout << "1. push \n" << endl;
+			cout << "2. pop \n" << endl;
+			cout << "3. display \n" << endl;
+			cout << "4. exit \n" << endl;
+			cin >> ch;
+			switch (ch) {
+			case '1': {
+				s.push();
+				break;
+			}
+			}
+		}
+			
+			  
+	}
+ 
 };
+
