@@ -89,6 +89,7 @@ public:
 			{
 				cout << "\ninvalid choice" << endl;
 			}
+			break;
 			}
 		}
 			
